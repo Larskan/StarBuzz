@@ -73,10 +73,12 @@ namespace StarBuzzProject
     #region DarkRoast
     public class DarkRoast : Beverage
     {
+        //Constructor
         public DarkRoast()
         {
             _Description = "Dark Roast";
         }
+        //Cost of DarkRoast
         public override double Cost()
         {
             return 1_1;
@@ -87,11 +89,13 @@ namespace StarBuzzProject
     #region Decaf
     public class Decaf : Beverage
     {
+        //Constructor
         public Decaf()
         {
             _Description = "Decaf";
            
         }
+        //Cost of Decaf
         public override double Cost()
         {
             return 1_4;
