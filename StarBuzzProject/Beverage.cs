@@ -32,7 +32,9 @@ namespace StarBuzzProject
         }
         private static void Launch(Beverage b)
         {
-            //b._Description = DarkRoast;
+           
+            b.Cost(DarkRoast);
+            b._Description(DarkRoast);
 
         }
 
